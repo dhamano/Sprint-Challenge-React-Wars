@@ -7,7 +7,7 @@ import './StarWars.scss';
 const CharacterList = props =>{
   return (
     <div className="char-list">
-        <Character charInfo={props.charInfoList} />
+        <Character charInfoList={props.charInfoList} />
     </div>
   )
 }
