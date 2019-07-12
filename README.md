@@ -25,6 +25,7 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [x] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+<<<<<<< HEAD
 			
 			React is a JS library that you can use to rapidly create interactive UIs. It is useful for create one page applications
 			like our todo list where we added, removed, and changed item states without having to reload the entire page, only the
@@ -49,6 +50,18 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 			Side effects are the new way to manage react lifecycle methods with hooks and they do not need us to create
 			classes to use them. They are technically anything that affects things outside of the scope of the function
 			being executed. An example would be fetching data from an API.
+=======
+React is a JS library that you can use to rapidly create interactive UIs. It is useful for create one page applications like our todo list where we added, removed, and changed item states without having to reload the entire page, only the sections that were changed.
+
+- [x] What does it mean to _think_ in react?
+It means to think about how you can break apart your application into separate components so it’s easier to develop, maintain, and understand. It also means thinking on how to keep the DRY principle by making reusable components.
+
+- [x] Describe state.
+State is data we have that is persistent in memory as long as your component is in memory. It is also immutable and the “heart” of the app. State usually becomes props for children components.
+
+- [x] Describe props.
+Props is short for properties and is the “life blood” of the app. They are the values that are passed components and are immutable also.
+>>>>>>> f94eff6fe1ac47daf5e231671a5a8b358379d7b1
 
 ## Project Set Up
 
@@ -58,7 +71,11 @@ Follow these steps to set up and work on your project:
 - [x] Add PM as collaborator on Github.
 - [x] Clone your OWN version of Repo (Not Lambda's by mistake!)
 - [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+<<<<<<< HEAD
 - [x] Change directories into `./starwars` (`cd starwars`) and run `yarn install` or `npm install` to retrieve all needed dependencies.
+=======
+- [x] Change directories into `./starwars` (`cd starwars`) and run `yarn install` to retrieve all needed dependencies.
+>>>>>>> f94eff6fe1ac47daf5e231671a5a8b358379d7b1
 - [x] Once you have installed the _node_modules_, run `yarn start or` to get your server up and running.
 - [x] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
 Follow these steps for completing your project.
@@ -76,6 +93,7 @@ Follow these steps for completing your project:
 
 Your finished project must include all of the following requirements:
 
+<<<<<<< HEAD
 - [x] Fetch a list of Star Wars characters from the [Star Wars API (or SWAPI)](https://swapi.co/) and render them to the screen. 
 - [x] Follow the documentation to learn how to fetch a list of "people". However, don't spend _too_ long on this. Here is a link for you to follow if you've looked around the docs for about 15 minutes or so and haven't found where to go - [Secret Link to Awesomeness 🤫](https://swapi.co/documentation#people)
 - [x] Set the data you fetch to state
@@ -83,6 +101,11 @@ Your finished project must include all of the following requirements:
 - [x] You must have at least one element for each star wars character in the data set
 - [x] The elements must be styled with either SemanticUI or styled-components - don't rely on browser default styles
 - [ ] Finally, add at least two snapshot tests
+=======
+- [x] A list of Star Wars Characters rendered to the screen.
+- [x] You must have at least one list element for each star wars character in the data set.
+- [x] The list elements must all be minimally styled. (Don't rely on browser default styles.)
+>>>>>>> f94eff6fe1ac47daf5e231671a5a8b358379d7b1
 
 Required best practices:
 
